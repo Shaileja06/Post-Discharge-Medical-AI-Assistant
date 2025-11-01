@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare AI - Patient Care Assistant</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="pulse pulse-1"></div>
+        <div class="pulse pulse-2"></div>
+        <div class="pulse pulse-3"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>MediCare AI</h1>
+                        <p>Your Post-Discharge Care Assistant</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="icon-btn" id="infoBtn" title="System Info">
+                        <i class="fas fa-info-circle"></i>
+                    </button>
+                    <button class="icon-btn" id="patientsBtn" title="View Patients">
+                        <i class="fas fa-users"></i>
+                    </button>
+                    <button class="icon-btn" id="newChatBtn" title="New Chat">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-header">
+                    <h3><i class="fas fa-user-circle"></i> Patient Info</h3>
+                    <button class="close-sidebar" id="closeSidebar">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="patient-card" id="patientCard">
+                    <div class="patient-placeholder">
+                        <i class="fas fa-user-injured"></i>
+                        <p>No patient identified yet</p>
+                        <small>Introduce yourself to get started</small>
+                    </div>
+                </div>
+
+                <div class="sidebar-features">
+                    <h4>Quick Actions</h4>
+                    <button class="feature-btn" data-action="medications">
+                        <i class="fas fa-pills"></i>
+                        <span>View Medications</span>
+                    </button>
+                    <button class="feature-btn" data-action="diet">
+                        <i class="fas fa-utensils"></i>
+                        <span>Dietary Guidelines</span>
+                    </button>
+                    <button class="feature-btn" data-action="follow_up">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Follow-up Appointments</span>
+                    </button>
+                    <button class="feature-btn" data-action="warnings">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>Warning Signs</span>
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Chat Area -->
+            <div class="chat-container">
+                <!-- Welcome Screen -->
+                <div class="welcome-screen" id="welcomeScreen">
+                    <div class="welcome-content">
+                        <div class="welcome-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h2>Welcome to MediCare AI</h2>
+                        <p>Your intelligent post-discharge care assistant</p>
+                        
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-user-md"></i>
+                                </div>
+                                <h4>Personal Care</h4>
+                                <p>Tailored guidance based on your discharge plan</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <h4>AI-Powered</h4>
+                                <p>Advanced AI with medical knowledge base</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h4>24/7 Support</h4>
+                                <p>Always available when you need help</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <h4>Research Access</h4>
+                                <p>Latest medical information at your fingertips</p>
+                            </div>
+                        </div>
+
+                        <button class="primary-btn start-chat-btn" id="startChatBtn">
+                            <i class="fas fa-comments"></i>
+                            Start Conversation
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Chat Messages -->
+                <div class="chat-messages" id="chatMessages" style="display: none;">
+                    <!-- Messages will be added here dynamically -->
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-area" id="inputArea" style="display: none;">
+                    <div class="input-container">
+                        <button class="attach-btn" id="attachBtn" title="Attach File">
+                            <i class="fas fa-paperclip"></i>
+                        </button>
+                        <textarea 
+                            id="messageInput" 
+                            placeholder="Type your message here..." 
+                            rows="1"
+                        ></textarea>
+                        <button class="send-btn" id="sendBtn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="input-info">
+                        <span class="typing-indicator" id="typingIndicator" style="display: none;">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                        </span>
+                        <span class="connection-status" id="connectionStatus">
+                            <i class="fas fa-check-circle"></i> Connected
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Citations Modal -->
+    <div class="modal" id="citationsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-quote-left"></i> Sources & Citations</h3>
+                <button class="close-modal" id="closeCitationsModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="citationsContent">
+                <!-- Citations will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- System Info Modal -->
+    <div class="modal" id="infoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-info-circle"></i> System Information</h3>
+                <button class="close-modal" id="closeInfoModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="infoContent">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Patients List Modal -->
+    <div class="modal" id="patientsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-users"></i> Registered Patients</h3>
+                <button class="close-modal" id="closePatientsModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="patientsContent">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>

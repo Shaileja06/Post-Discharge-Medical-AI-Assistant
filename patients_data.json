@@ -1,0 +1,401 @@
+[
+    {
+      "patient_name": "John Smith",
+      "discharge_date": "2024-01-15",
+      "primary_diagnosis": "Chronic Kidney Disease Stage 3",
+      "medications": [
+        "Lisinopril 10mg daily",
+        "Furosemide 20mg twice daily",
+        "Calcium Acetate 667mg with meals"
+      ],
+      "dietary_restrictions": "Low sodium (1.5g/day), Fluid restriction (1.5L/day), Low Phosphorus",
+      "follow_up": "Nephrology clinic in 10 days, Primary Care in 4 weeks",
+      "warning_signs": "Swelling, shortness of breath, decreased urine output, sudden weight gain",
+      "discharge_instructions": "Monitor blood pressure and weight daily. Use pill organizer for new medications."
+    },
+    {
+      "patient_name": "Sarah Johnson",
+      "discharge_date": "2024-01-18",
+      "primary_diagnosis": "Acute Decompensated Heart Failure (ADHF)",
+      "medications": [
+        "Carvedilol 6.25mg twice daily",
+        "Spironolactone 25mg daily",
+        "Torsemide 10mg daily"
+      ],
+      "dietary_restrictions": "Low sodium (2g/day), Fluid restriction (2L/day)",
+      "follow_up": "Cardiology clinic in 7 days, Home Health Nurse visit next day",
+      "warning_signs": "Sudden weight gain (3+ lbs in 2 days), increased leg swelling, difficulty breathing while lying down",
+      "discharge_instructions": "Weigh yourself every morning before breakfast. Keep a log of your weight and fluid intake."
+    },
+    {
+      "patient_name": "Michael Brown",
+      "discharge_date": "2024-01-22",
+      "primary_diagnosis": "Pneumonia, Community-Acquired",
+      "medications": [
+        "Amoxicillin 500mg three times daily (10-day course)",
+        "Albuterol HFA Inhaler as needed for shortness of breath"
+      ],
+      "dietary_restrictions": "None (encourage high-protein diet)",
+      "follow_up": "Primary Care Physician in 1 week for chest X-ray follow-up",
+      "warning_signs": "Fever above 100.4°F, shaking chills, worsening cough, chest pain, confusion",
+      "discharge_instructions": "Complete the full course of antibiotics. Practice deep breathing and coughing exercises every 2 hours while awake."
+    },
+    {
+      "patient_name": "Emily Davis",
+      "discharge_date": "2024-01-25",
+      "primary_diagnosis": "Type 2 Diabetes Mellitus with Hyperglycemia",
+      "medications": [
+        "Metformin 1000mg twice daily",
+        "Insulin Glargine (Lantus) 20 units nightly"
+      ],
+      "dietary_restrictions": "Diabetic Diet (Limit simple sugars, consistent carbohydrate intake)",
+      "follow_up": "Endocrinology clinic in 2 weeks, Diabetes Education class next week",
+      "warning_signs": "Excessive thirst/urination, confusion, fruity breath odor, signs of low blood sugar (shakiness, sweating)",
+      "discharge_instructions": "Monitor blood glucose four times daily (before meals and at bedtime). Know the signs of hypoglycemia and carry a source of sugar."
+    },
+    {
+      "patient_name": "Robert Wilson",
+      "discharge_date": "2024-01-28",
+      "primary_diagnosis": "Status Post Total Hip Arthroplasty (THA)",
+      "medications": [
+        "Oxycodone 5mg every 4-6 hours as needed for pain",
+        "Rivaroxaban 10mg daily for DVT prophylaxis (30 days)"
+      ],
+      "dietary_restrictions": "None (Ensure high-fiber to prevent constipation from pain medication)",
+      "follow_up": "Orthopedic Surgeon in 2 weeks, Outpatient Physical Therapy three times a week",
+      "warning_signs": "Fever above 100.4°F, severe pain unrelieved by medication, redness/swelling/pus at incision site, calf pain/swelling",
+      "discharge_instructions": "Follow hip precautions (no bending past 90 degrees, no crossing legs). Keep incision clean and dry."
+    },
+    {
+      "patient_name": "Jessica Lee",
+      "discharge_date": "2024-02-01",
+      "primary_diagnosis": "Urinary Tract Infection (complicated)",
+      "medications": [
+        "Ciprofloxacin 500mg twice daily (7-day course)",
+        "Phenazopyridine 200mg three times daily as needed for pain"
+      ],
+      "dietary_restrictions": "Encourage fluid intake (2-3L/day)",
+      "follow_up": "Primary Care for urine culture recheck in 7-10 days",
+      "warning_signs": "Fever/chills, flank pain, severe nausea/vomiting, blood in urine",
+      "discharge_instructions": "Drink plenty of water and complete the full course of Ciprofloxacin. Urine may turn orange/red from Phenazopyridine."
+    },
+    {
+      "patient_name": "David Clark",
+      "discharge_date": "2024-02-04",
+      "primary_diagnosis": "Stroke (Ischemic) - Right Middle Cerebral Artery",
+      "medications": [
+        "Aspirin 81mg daily",
+        "Atorvastatin 40mg nightly",
+        "Clopidogrel 75mg daily"
+      ],
+      "dietary_restrictions": "Dysphagia Diet (Thickened liquids, pureed foods) - per Speech Therapy",
+      "follow_up": "Rehabilitation facility transfer tomorrow, Neurology clinic in 4 weeks",
+      "warning_signs": "Sudden weakness/numbness on one side of the body, slurred speech, facial droop, severe headache",
+      "discharge_instructions": "Continue recommended exercises. Use assistive devices as instructed. Know the signs of a recurrent stroke (BE FAST)."
+    },
+    {
+      "patient_name": "Maria Garcia",
+      "discharge_date": "2024-02-07",
+      "primary_diagnosis": "Asthma Exacerbation",
+      "medications": [
+        "Prednisone 40mg daily (5-day taper)",
+        "Fluticasone Propionate Inhaler 2 puffs twice daily",
+        "Albuterol rescue inhaler as needed"
+      ],
+      "dietary_restrictions": "None",
+      "follow_up": "Pulmonology clinic in 2 weeks to review Asthma Action Plan",
+      "warning_signs": "Worsening shortness of breath, wheezing that does not improve with rescue inhaler, chest tightness",
+      "discharge_instructions": "Use your rescue inhaler before calling for help. Keep a symptom diary. Avoid known triggers."
+    },
+    {
+      "patient_name": "Christopher Chen",
+      "discharge_date": "2024-02-11",
+      "primary_diagnosis": "Acute Coronary Syndrome (NSTEMI)",
+      "medications": [
+        "Metoprolol Succinate 50mg daily",
+        "Ticagrelor 90mg twice daily",
+        "Nitroglycerin sublingual 0.4mg as needed for chest pain"
+      ],
+      "dietary_restrictions": "Cardiac Diet (Low fat, low cholesterol, low sodium)",
+      "follow_up": "Cardiac Rehabilitation enrollment within 1 week, Cardiology in 1 week",
+      "warning_signs": "New or worsening chest pain, pain radiating to arm/jaw/back, dizziness, feeling faint",
+      "discharge_instructions": "Take Nitroglycerin if chest pain occurs. If pain is unrelieved after 5 minutes and one dose, call 911. Avoid heavy lifting."
+    },
+    {
+      "patient_name": "Linda Baker",
+      "discharge_date": "2024-02-14",
+      "primary_diagnosis": "Postpartum Preeclampsia",
+      "medications": [
+        "Labetalol 200mg twice daily",
+        "Magnesium supplement 400mg daily"
+      ],
+      "dietary_restrictions": "Monitor fluid intake. Encourage balanced, low-sodium meals.",
+      "follow_up": "Obstetrics (OB) follow-up in 3 days, Primary Care in 2 weeks",
+      "warning_signs": "Severe, persistent headache, vision changes (blurry, spots), upper right abdominal pain, sudden swelling of hands/face",
+      "discharge_instructions": "Monitor blood pressure twice daily. Report any 'POST-BIRTH' warning signs to your OB immediately."
+    },
+    {
+      "patient_name": "Daniel Kim",
+      "discharge_date": "2024-02-17",
+      "primary_diagnosis": "Exacerbation of Chronic Obstructive Pulmonary Disease (COPD)",
+      "medications": [
+        "Tiotropium HandiHaler 18mcg daily",
+        "Inhaled Budesonide/Formoterol 2 puffs twice daily"
+      ],
+      "dietary_restrictions": "Eat small, frequent, high-calorie meals to conserve energy.",
+      "follow_up": "Pulmonology clinic in 1 week, Smoking Cessation Program enrollment",
+      "warning_signs": "Increased shortness of breath, change in color/thickness of sputum, use of accessory breathing muscles, confusion",
+      "discharge_instructions": "Continue home oxygen therapy as prescribed. Use pursed-lip breathing technique daily."
+    },
+    {
+      "patient_name": "Olivia Miller",
+      "discharge_date": "2024-02-20",
+      "primary_diagnosis": "Cellulitis of Left Lower Extremity",
+      "medications": [
+        "Cephalexin 500mg four times daily (14-day course)",
+        "Acetaminophen 500mg every 6 hours as needed for pain"
+      ],
+      "dietary_restrictions": "None",
+      "follow_up": "Primary Care Physician in 7 days to check infection site",
+      "warning_signs": "Spreading redness/swelling/warmth, fever above 100.4°F, new drainage or pus from site, severe pain",
+      "discharge_instructions": "Elevate the affected leg above heart level when sitting. Complete all antibiotics. Keep the area clean."
+    },
+    {
+      "patient_name": "Andrew Hall",
+      "discharge_date": "2024-02-24",
+      "primary_diagnosis": "Herniated Nucleus Pulposus (Lumbar)",
+      "medications": [
+        "Cyclobenzaprine 5mg at bedtime for muscle spasm",
+        "Naproxen 500mg twice daily with food"
+      ],
+      "dietary_restrictions": "None",
+      "follow_up": "Pain Management specialist in 10 days, Outpatient Physical Therapy",
+      "warning_signs": "New or worsening weakness/numbness in legs/feet, loss of bowel or bladder control",
+      "discharge_instructions": "Do not lift more than 10 lbs. Maintain proper body mechanics (lift with legs, not back). Apply heat/ice as tolerated."
+    },
+    {
+      "patient_name": "Nicole Perez",
+      "discharge_date": "2024-02-27",
+      "primary_diagnosis": "Electrolyte Imbalance (Severe Hyponatremia)",
+      "medications": [
+        "Tolvaptan 15mg daily",
+        "Sertraline 50mg daily"
+      ],
+      "dietary_restrictions": "Strict Fluid Restriction (1.2L/day) until follow-up",
+      "follow_up": "Endocrinology in 5 days for electrolyte panel recheck",
+      "warning_signs": "Confusion, severe headache, muscle cramps, lethargy, seizures",
+      "discharge_instructions": "Adhere strictly to the fluid restriction. Avoid excessive intake of plain water. Record daily fluid intake."
+    },
+    {
+      "patient_name": "James Rodriguez",
+      "discharge_date": "2024-03-01",
+      "primary_diagnosis": "Atrial Fibrillation with Rapid Ventricular Response (New Onset)",
+      "medications": [
+        "Diltiazem CD 180mg daily",
+        "Apixaban 5mg twice daily"
+      ],
+      "dietary_restrictions": "None (If on Warfarin, a Vitamin K consistent diet would be needed)",
+      "follow_up": "Cardiology in 1 week, PCP in 4 weeks",
+      "warning_signs": "Irregular or racing heart beat, dizziness, fainting, shortness of breath, bleeding/bruising easily (from Apixaban)",
+      "discharge_instructions": "Take Apixaban exactly as prescribed. Avoid contact sports. Check your pulse rate daily."
+    },
+    {
+      "patient_name": "Karen Green",
+      "discharge_date": "2024-03-05",
+      "primary_diagnosis": "Acute Gastroenteritis with Dehydration",
+      "medications": [
+        "Ondansetron 4mg every 8 hours as needed for nausea"
+      ],
+      "dietary_restrictions": "BRAT diet (Bananas, Rice, Applesauce, Toast) for 24-48 hours, then gradual return to regular diet.",
+      "follow_up": "Primary Care Physician in 3 days if symptoms persist",
+      "warning_signs": "Inability to keep fluids down for 12+ hours, severe abdominal pain, high fever, blood in stool or vomit",
+      "discharge_instructions": "Sip clear fluids and electrolyte solutions (Pedialyte, Gatorade) frequently. Wash hands often."
+    },
+    {
+      "patient_name": "Thomas Young",
+      "discharge_date": "2024-03-08",
+      "primary_diagnosis": "Alcohol Withdrawal Syndrome (Resolved)",
+      "medications": [
+        "Thiamine 100mg daily",
+        "Folic Acid 1mg daily",
+        "Gabapentin 300mg three times daily"
+      ],
+      "dietary_restrictions": "High-protein, vitamin-rich diet. No alcohol or caffeine.",
+      "follow_up": "Outpatient Substance Abuse Counseling and AA meeting enrollment",
+      "warning_signs": "Shaking, hallucinations, seizures, severe anxiety, confusion, craving for alcohol",
+      "discharge_instructions": "Attend all scheduled therapy sessions. Have a sober support person check in daily."
+    },
+    {
+      "patient_name": "Angela Scott",
+      "discharge_date": "2024-03-12",
+      "primary_diagnosis": "Post-Cholecystectomy (Gallbladder removal)",
+      "medications": [
+        "Ibuprofen 400mg every 6 hours as needed for pain",
+        "Docusate Sodium 100mg twice daily for constipation"
+      ],
+      "dietary_restrictions": "Low-fat diet for 4-6 weeks (avoid fried and greasy foods).",
+      "follow_up": "General Surgeon in 1 week",
+      "warning_signs": "Fever, worsening abdominal pain, persistent nausea/vomiting, yellowing of skin or eyes (jaundice), bile leakage from incision",
+      "discharge_instructions": "Keep incision sites clean and dry. Avoid heavy lifting (over 15 lbs) for 6 weeks. Increase walking daily."
+    },
+    {
+      "patient_name": "George King",
+      "discharge_date": "2024-03-15",
+      "primary_diagnosis": "Gastroesophageal Reflux Disease (GERD) Exacerbation",
+      "medications": [
+        "Omeprazole 20mg daily before breakfast",
+        "Tums as needed for breakthrough symptoms"
+      ],
+      "dietary_restrictions": "Avoid acidic foods (citrus, tomatoes), mint, chocolate, caffeine, and alcohol.",
+      "follow_up": "PCP in 4 weeks if symptoms do not improve with medication",
+      "warning_signs": "Bloody vomit or black stool (sign of bleeding ulcer), difficulty swallowing, severe chest pain",
+      "discharge_instructions": "Do not lie down for 3 hours after eating. Elevate the head of the bed 6-8 inches."
+    },
+    {
+      "patient_name": "Kelly White",
+      "discharge_date": "2024-03-19",
+      "primary_diagnosis": "Septicemia (Sepsis) secondary to central line infection",
+      "medications": [
+        "Vancomycin 1g IV daily (through PICC line)",
+        "Acetaminophen 500mg every 6 hours as needed for fever"
+      ],
+      "dietary_restrictions": "High-calorie, high-protein diet to aid recovery.",
+      "follow_up": "Infectious Disease clinic in 7 days, Home Health Nurse daily for IV antibiotics",
+      "warning_signs": "Fever/chills, confusion, extreme pain, clammy skin, signs of infection at PICC line site (redness, pus, swelling)",
+      "discharge_instructions": "Keep PICC line dressing clean and dry. Complete the full 6-week course of IV antibiotics. Monitor temperature twice daily."
+    },
+    {
+      "patient_name": "Steven Harris",
+      "discharge_date": "2024-03-22",
+      "primary_diagnosis": "Bipolar Disorder (Manic Episode)",
+      "medications": [
+        "Lithium Carbonate 300mg three times daily",
+        "Quetiapine 100mg at bedtime"
+      ],
+      "dietary_restrictions": "Maintain consistent salt and fluid intake (for Lithium monitoring). Avoid crash dieting.",
+      "follow_up": "Outpatient Behavioral Health follow-up in 3 days, Psychiatry in 1 week",
+      "warning_signs": "Increased grandiose thinking, decreased need for sleep, rapid or pressured speech, thoughts of self-harm",
+      "discharge_instructions": "Take medications exactly as prescribed. Attend all therapy appointments. Schedule blood work for Lithium level next week."
+    },
+    {
+      "patient_name": "Megan Thompson",
+      "discharge_date": "2024-03-26",
+      "primary_diagnosis": "Transient Ischemic Attack (TIA)",
+      "medications": [
+        "Dipyridamole/Aspirin (Aggrenox) twice daily",
+        "Lisinopril 5mg daily"
+      ],
+      "dietary_restrictions": "DASH diet (Dietary Approaches to Stop Hypertension) - low sodium, high potassium, calcium, magnesium.",
+      "follow_up": "Vascular Neurology clinic in 1 week, Imaging recheck in 3 months",
+      "warning_signs": "Recurrence of stroke-like symptoms (facial droop, arm weakness, slurred speech), sudden severe headache",
+      "discharge_instructions": "Monitor blood pressure daily. Maintain blood pressure within target range (<140/90). Begin walking program 3x/week."
+    },
+    {
+      "patient_name": "Edward Torres",
+      "discharge_date": "2024-03-29",
+      "primary_diagnosis": "Acute Pancreatitis (Alcohol-induced)",
+      "medications": [
+        "Pancreatic Enzymes with meals",
+        "Pain medication as needed"
+      ],
+      "dietary_restrictions": "Strict low-fat diet. No alcohol. Small, frequent meals.",
+      "follow_up": "Gastroenterology in 2 weeks, Nutrition counseling next week",
+      "warning_signs": "Severe abdominal pain radiating to the back, vomiting, fever, jaundice",
+      "discharge_instructions": "Absolutely no alcohol consumption. Take enzyme supplements with every meal/snack. Follow-up for pain management."
+    },
+    {
+      "patient_name": "Betty Adams",
+      "discharge_date": "2024-04-03",
+      "primary_diagnosis": "Post-Exploratory Laparotomy for Small Bowel Obstruction (SBO)",
+      "medications": [
+        "Morphine PCA pump removed, transitioning to oral pain meds (Hydrocodone/Acetaminophen 5/325mg every 6 hours as needed)",
+        "Colace (Stool softener) daily"
+      ],
+      "dietary_restrictions": "Advance to soft, bland, low-fiber diet as tolerated. Chew thoroughly. Avoid gas-producing foods.",
+      "follow_up": "General Surgeon in 7-10 days",
+      "warning_signs": "Inability to pass gas or stool, abdominal distension, severe nausea/vomiting, fever, drainage from incision",
+      "discharge_instructions": "Walk for 10-15 minutes 3 times a day. Do not lift anything over 10 lbs for 8 weeks. Keep incision clean and dry."
+    },
+    {
+      "patient_name": "Henry Walker",
+      "discharge_date": "2024-04-06",
+      "primary_diagnosis": "Severe Anemia (Iron Deficiency)",
+      "medications": [
+        "Ferrous Sulfate 325mg three times daily with Vitamin C",
+        "Esomeprazole 40mg daily (while determining cause of blood loss)"
+      ],
+      "dietary_restrictions": "Iron-rich foods (lean meats, leafy greens). Avoid taking Ferrous Sulfate with milk or caffeine.",
+      "follow_up": "Hematology/Oncology in 2 weeks for further work-up, PCP for weekly blood check",
+      "warning_signs": "Extreme fatigue, paleness, dizziness/fainting, shortness of breath on exertion, chest pain",
+      "discharge_instructions": "Increase iron and Vitamin C intake. Iron may cause black stools and constipation. Follow up promptly for all blood tests."
+    },
+    {
+      "patient_name": "Victoria Lewis",
+      "discharge_date": "2024-04-09",
+      "primary_diagnosis": "Systemic Lupus Erythematosus (SLE) Flare-up",
+      "medications": [
+        "Hydrochloroquine 200mg twice daily",
+        "Methylprednisolone 8mg daily (gradual taper)",
+        "NSAID for pain (e.g., Meloxicam 15mg daily)"
+      ],
+      "dietary_restrictions": "None (Focus on balanced anti-inflammatory diet)",
+      "follow_up": "Rheumatology in 1 week, Ophthalmology in 6 months (for Hydrochloroquine side effects)",
+      "warning_signs": "New or worsening joint pain/swelling, severe fatigue, rash (especially butterfly rash on face), fever",
+      "discharge_instructions": "Avoid excessive sun exposure. Monitor for signs of infection due to steroids. Stay well-rested."
+    },
+    {
+      "patient_name": "Frank Harrison",
+      "discharge_date": "2024-04-12",
+      "primary_diagnosis": "Deep Vein Thrombosis (DVT) in Left Leg",
+      "medications": [
+        "Rivaroxaban 20mg daily",
+        "Acetaminophen 500mg as needed for pain"
+      ],
+      "dietary_restrictions": "None",
+      "follow_up": "Hematology in 1 week, Doppler ultrasound recheck in 3 months",
+      "warning_signs": "Increased pain/swelling/redness in the leg, sudden shortness of breath, sharp chest pain (signs of Pulmonary Embolism - PE)",
+      "discharge_instructions": "Wear compression stockings as instructed. Stay active and walk regularly. Take blood thinners exactly as directed."
+    },
+    {
+      "patient_name": "Eva Carter",
+      "discharge_date": "2024-04-16",
+      "primary_diagnosis": "Spinal Fusion (L4-S1)",
+      "medications": [
+        "Extended-release Opioid (e.g., Tramadol 100mg twice daily)",
+        "Aspirin 81mg daily (for 4 weeks)",
+        "Sennosides (Laxative) nightly"
+      ],
+      "dietary_restrictions": "None (High fiber to counteract opioid-induced constipation)",
+      "follow_up": "Spine Surgeon in 2 weeks, Pain Clinic in 3 weeks, Home Health PT/OT visits initiated",
+      "warning_signs": "Fever, chills, severe pain unrelieved by medication, new leg weakness/numbness, drainage from surgical site, loss of bladder control",
+      "discharge_instructions": "NO bending, lifting, or twisting (BLT precautions). Use a walker/cane for assistance. Keep surgical site clean and dry."
+    },
+    {
+      "patient_name": "Gary Mitchell",
+      "discharge_date": "2024-04-19",
+      "primary_diagnosis": "Post-Cardiac Catheterization with Stent Placement",
+      "medications": [
+        "Clopidogrel 75mg daily",
+        "Aspirin 81mg daily",
+        "Rosuvastatin 10mg nightly"
+      ],
+      "dietary_restrictions": "Cardiac Diet (Low saturated fat, low cholesterol)",
+      "follow_up": "Cardiology in 1 week, Cardiac Rehab within 10 days",
+      "warning_signs": "Bleeding/swelling/lump at catheter site (groin/wrist), chest pain, fever, signs of stroke/TIA",
+      "discharge_instructions": "Do not lift heavy objects or strain for 1 week. Keep catheter site clean and dry. Complete dual antiplatelet therapy as prescribed."
+    },
+    {
+      "patient_name": "Joyce Parker",
+      "discharge_date": "2024-04-23",
+      "primary_diagnosis": "Exacerbation of Rheumatoid Arthritis",
+      "medications": [
+        "Methotrexate 15mg weekly (with Folic Acid daily)",
+        "Prednisone 5mg daily",
+        "Hydroxychloroquine 200mg daily"
+      ],
+      "dietary_restrictions": "None (Anti-inflammatory diet encouraged)",
+      "follow_up": "Rheumatology in 2 weeks, Laboratory tests in 1 week (for Methotrexate monitoring)",
+      "warning_signs": "Fever, signs of infection (due to immunosuppressants), new joint deformities, vision changes (from Hydroxychloroquine)",
+      "discharge_instructions": "Avoid large crowds while on Prednisone. Report any signs of infection immediately. Take Folic Acid to prevent side effects of Methotrexate."
+    }
+  ]
