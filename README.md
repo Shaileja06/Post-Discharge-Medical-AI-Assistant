@@ -2,7 +2,7 @@
 
 **A Multi-Agent Generative AI System for Post-Discharge Patient Care**
 
-This repository contains the Proof of Concept (POC) for a **Post-Discharge Medical AI Assistant**, developed as part of the **DataSmith AI – GenAI Intern Assignment**.  
+This repository contains the Proof of Concept (POC) for a **Post-Discharge Medical AI Assistant**.  
 The project demonstrates the integration of **LangChain**, **Groq LLMs**, **Retrieval-Augmented Generation (RAG)**, and **multi-agent orchestration** using **Streamlit** and **FastAPI**.
 
 ---
@@ -54,7 +54,7 @@ This system follows a **multi-agent architecture** built with **LangChain** and 
 
 ## 🗂️ Project Structure
 
-Post-Discharge-Medical-AI-Assistant/
+```Post-Discharge-Medical-AI-Assistant/
 │
 ├── data/
 │ ├── patients/ # 25+ dummy discharge reports (JSON)
@@ -81,15 +81,12 @@ Post-Discharge-Medical-AI-Assistant/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
-yaml
-Copy code
-
----
+```
 
 ## ⚙️ Setup & Installation
 
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/Shaileja06/Post-Discharge-Medical-AI-Assistant.git
 cd Post-Discharge-Medical-AI-Assistant
